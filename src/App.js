@@ -8,7 +8,7 @@ import { Card } from 'react-bootstrap';
 function App() {
   return (
     <div className='main'>
-      <h4>First React / Bootstrap Cards</h4>
+      <h4>React / Bootstrap Cards</h4>
     <div className='cards'>
     <Card id='card1'>
       <Card.Img id='pic1' Variant='top' src="./f1.jpg" />
@@ -20,7 +20,7 @@ function App() {
         <Card.Text id='para1'>
           <strong>Price</strong>
         </Card.Text>
-        <Button Variant='primary' id='normal' type='submit'>Add To Cart</Button>
+        <Button Variant='primary' id='normal'>Add To Cart</Button>
       </Card.Body>
     </Card>
     <Card id='card1'>
