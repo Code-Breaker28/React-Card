@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.main{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.main h4{
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: 200;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+}
+
+
+
+#card1{
+    background-image: linear-gradient(rgb(75, 71, 71) 5%, rgb(0, 110, 255) 25%, rgb(111, 201, 228) 80%);
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    width: 21%;
+    min-width: 250px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;  
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+#card1:hover{
+    transform: scale(1.05,1.05);
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#head1{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    
+    }
+
+ #para1{
+    text-align: center;
+    line-height: 15px;
+    
+ }   
+
+#pic1{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+#normal{
+    background-color: black;
+    transition: 0.5s ease;
+    border: 1px solid black;
+    border-radius: 20px; 
+    padding: 5px 15px;
+}
+
